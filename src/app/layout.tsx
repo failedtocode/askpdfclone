@@ -29,7 +29,7 @@ export default function RootLayout ({
 }>) {
   return (
     <ClerkProvider
-    afterSignOutUrl='/'
+    afterSignOutUrl='/abcd'
     >
       <Providers>
         <html lang='en' suppressHydrationWarning>
